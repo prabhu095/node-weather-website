@@ -1,0 +1,70 @@
+/* When we provide color in body, It will be applied 
+for all the fonts in entire site except links
+*/
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px; /* maximum width of site */
+    margin: 0 auto; /*  auto adjust left and right width */
+    padding: 0, 16px;
+
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*
+footer {
+    background: blue;
+    padding: 16px; Add the space between box and content 
+    margin: 16px; Puts the space between outside of box  
+}
+*/
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer  {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px, 0;
+
+}
+
+
+header{
+    margin-top:16px;
+    margin-bottom: 48px;
+
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: None /* Under line links*/
+}
+
+.potrait  {
+    width: 250px;
+}
+
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    padding: 8px;
+
+}
