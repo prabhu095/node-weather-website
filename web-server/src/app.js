@@ -81,13 +81,6 @@ app.get('/weather', (req, res)=>{
 
 })
 
-// Goal: Wire up / Weather
-
-// 1. Require geocode/forecast into app.js
-// 2. Use the address to geocode
-// 3. Use the coordinates to get forecast
-// 4. Send back the real forecast and location
-
 app.get('/products', (req, res)=>{
     /*
         At one go Html can receive or send.
